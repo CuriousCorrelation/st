@@ -5,8 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char* font     = "Roboto Mono:pixelsize=25:antialias=true:autohint=true";
-static char* font2[]  = {"'mono:pixelsize=14:antialias=true:autohint=true"};
+static char* font     = "Fira Code Retina:pixelsize=25:antialias=true:autohint=true";
 static int   borderpx = 2;
 
 /*
@@ -87,13 +86,13 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char* colorname[] = {
     /* 8 normal colors */
-    "#181818",
-    "#383838",
-    "#585858",
-    "#787878",
+    "#888888",
     "#989898",
+    "#a8a8a8",
     "#b8b8b8",
+    "#c8c8c8",
     "#d8d8d8",
+    "#e8e8e8",
     "#f8f8f8",
 
     /* 8 bright colors */
@@ -111,7 +110,7 @@ static const char* colorname[] = {
     /* more colors can be added after 255 to use with DefaultXX */
     "#181818", // 256 -> background
     "#f8f8f8", // 257 -> foreground
-    "#ab4642", // 258 -> cursor
+    "#ffffff", // 258 -> cursor
     "#ffffff", // 259 -> reverse cursor
 };
 
