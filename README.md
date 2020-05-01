@@ -32,3 +32,14 @@ Credits
 -------
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
 
+Usage
+-------
+`shift + mousewheel or shift + page up or page down` to scroll.
+`ctrl + shift + c` to copy.
+`ctrl + shift + v` to paste.
+
+Screenshots
+-------
+![screenshots1](screenshots/screenshots1.png)
+![screenshots2](screenshots/screenshots1.png)
+![screenshots3](screenshots/screenshots1.png)
