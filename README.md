@@ -40,6 +40,6 @@ Usage
 
 Screenshots
 -------
-![screenshots1](screenshots/screenshots1.png)
-![screenshots2](screenshots/screenshots1.png)
-![screenshots3](screenshots/screenshots1.png)
+![screenshots1](screenshots/screenshot1.png)
+![screenshots2](screenshots/screenshot2.png)
+![screenshots3](screenshots/screenshot3.png)
