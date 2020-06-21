@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char* font     = "Fira Code:style:Medium:pixelsize=25:antialias=true:autohint=true";
+static char* font     = "Input Mono:style:Bold:pixelsize=24:antialias=true:autohint=true";
 static int   borderpx = 2;
 
 /*
@@ -85,13 +85,12 @@ char* termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.85;
+float alpha = 0.95;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char* colorname[] = {
 
     /* 8 normal colors */
-
     "#888888",
     "#989898",
     "#a8a8a8",
@@ -115,9 +114,9 @@ static const char* colorname[] = {
 
     /* more colors can be added after 255 to use with DefaultXX */
     "#181818", // 256 -> background
-    "#f8f8f8", // 257 -> foreground
+    "#ffffff", // 257 -> foreground
     "#ffffff", // 258 -> cursor
-    "#ffffff", // 259 -> reverse cursor
+    "#181818", // 259 -> reverse cursor
 
 };
 
